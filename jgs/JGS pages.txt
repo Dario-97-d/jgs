@@ -1,0 +1,35 @@
+geral: overview, stats, char dev
+mates: alliance
+ludus: training
+arena: battle
+under: the pit
+
+p.geral
+
+spartacus
+lv # w/b
+
+spfss
+
+char_text
+
+p.mates
+
+alliances with other gladiators
+list of players connected to user
+
+p.ludus
+
+train-fight: asadd (1x 30min)
+
+choose partner for train-fight
+gladiators | # N Lv S P F S S
+
+p.arena
+
+1 duel per day. win adds gold to the value of a gladiator
+ranking | # N Lv G
+
+p.under
+
+if player lost in the arena, must bet and win to recover the gold value (1x 30min)

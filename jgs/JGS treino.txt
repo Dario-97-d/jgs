@@ -1,0 +1,35 @@
+Treino custa valor atual (1->2, 2->3)
+Progresso de cada att é a soma do treino feito e o ganho em batalha
+Valor de batt é (treino+batalha)/soma_incremento(1+2+3+4+5)
+batt=tb/si
+para 15 treinados e 8 ganhos em batalha, tem-se att=6 e prog_meta=(7-2)
+
+Speed...| agi
+Power...| str
+Attack..| fla
+Defense.| sen
+
+A 0| |1 | S 1
+S 0| |1 | P 1
+F 0| |1 | A 1
+S 0| |1 | D 1
+
+---
+
+custo de batalha: 5 sessions
+custo do treino: atts_total (5,6,7,8,9...)
+
+Speed | 1 -
+Power | 1 -
+Flair | 2 --
+Sense | 1 -
+Skill | 3 ---
+
+cada X pontos dá 1 batt
+cada treino custa: atts_total (5,6,7,8,9...)
+
+agi
+str
+fla
+sen
+dex

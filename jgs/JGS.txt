@@ -1,0 +1,94 @@
+Jogo Gladiatus Spartacus
+
+começa no ludus. treina com espada de pau e luta na arena. se ganhar, recebe ouro e gloria. se perder, vai para o pit.
+no pit, precisa apostar ouro para poder voltar à arena.
+na arena, luta por fama, que dá a chance de avançar pelas arenas e ganhar a liberdade.
+pode fugir em grupo, fazendo expediçoes de caça e ataques a aldeias e caravanas do imperio.
+se ganhar a liberdade na arena, pode criar um ludus e comprar gladiadores. pode apostar ouro nos gladiadores do seu ludus.
+
+--- ---
+
+-User começa no submundo; avança até à arena, de onde pode tentar fugir; pode tornar-se lenda e obter a liberdade.
+-Estatuto: Lutador, Gladiador, Lenda - (Circo, Arena, Liberdade).
+-Fuga: Users unem-se para resistir ao império.
+-Novos reinos: Os grupos de guerreiros podem estabelecer reinos independentes do império; podem colaborar com o para obter um território imperial; podem lutar pela independência; os novos reinos podem unir-se contra o império e guerrear entre si.
+
+---
+
+p.Vista Geral
+p.Mail
+p.Rank
+p.Grupos
+
+p.Treino
+p.Arena
+p.Grupo
+p.Ataques
+p.Defesa
+
+---
+
+p.Treino
+
+Individual ou a par, com membro de família e grupo
+
+p.Arena
+
+Submundo/Circo/Arena (Consoante graduação)
+
+p.Grupo
+
+Grupo de gladiadores
+
+p.Ataques
+
+Emboscada, Assalto
+
+p.Defesa
+
+Estratégia de defesa
+
+---
+
+Treino
+
+O user poderá treinar as suas capacidades no campo de treinos da arena, enquanto for servente. Em liberdade, pode treinar com qualquer outro fugitivo.
+
+---
+
+Arena
+
+Submundo / Circo / Arena
+
+Comprado como escravo, o user precisa sobreviver no submundo para merecer viver.
+Vivo, o user entretem plateias pequenas para poder manter-se vivo. Se for digno, tornar-se-á gladiador, lutando na arena perante grandes plateias e nobres do império.
+Na Arena, o user precisa sobreviver cada combate para poder lutar o próximo. A única saída é ser tão poderoso que supera todos os adversários até comprar a sua liberdade.
+Livre, o user pode vaguear por onde quiser. O império não pode prendê-lo, a não ser que um general detete o user entre os grupos de escravos fugitivos. Se capturado, o user luta na arena das lendas, onde pode tornar-se o deus da arena.
+
+Submundo: User define o seu char e recebe um relatório de combate. Gradua para Lutador, e passa para a Arena de Circo
+
+Circo: User precisa ganhar 3 combates seguidos para avançar para a Arena, como Gladiador.
+
+Arena: User ganha crédito com cada vitória. Mas para obter a liberdade precisa obter X vitórias seguidas. Cada nova vitória leva o user para uma batalha mais difícil, até o user tornar-se livre. A cada derrota, a contagem volta a 0 e o user precisa ganhar uma nova sequência. Gladiadores aliados que consigam manter-se acima de todos os outros podem fugir da arena.
+
+Coliseu: As lendas capturadas lutam aqui. Só um pode ser o Deus da Arena.
+
+---
+
+Grupo
+
+Gladiador: O user pode unir-se a outros em alianças para fugir. Os membros de um grupo não podem atacar-se, e quando o grupo tiver um score 'X' de vitórias consecutivas, o grupo poderá fugir da arena.
+
+Fugitivo: Fora do controlo do império, o user pode aliar-se a outros users para obter proteção e recursos. O grupo poderá pilhar aldeias e emboscar caravanas, enquanto tenta proteger-se dos avanços dos soldados romanos.
+
+---
+
+Ataque
+
+O grupo livre pode atacar caravanas, aldeias e vilas para reabastecer. Se o grupo aproximar de uma aldeia amigável, pode reabastecer sem lutar. Se o grupo aproximar de uma aldeia hostil, terá de lutar para saquear ou mesmo para viver.
+
+---
+
+Defesa
+
+O user precisa ter uma estratégia de defesa para o caso de ser encontrado por um exército imperial. Deve lutar? A que ponto deve fugir? Se for capturado, volta para a arena.

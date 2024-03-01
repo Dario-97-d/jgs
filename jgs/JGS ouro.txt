@@ -1,0 +1,15 @@
+Ouro
+
+quanto um gladiador vale
+-aumenta com vitórias
+-nao diminui com derrotas
+-permite ter melhores equipamentos
+
+Fama
+
+quanto um gladiador tem ganhado
+-aumenta com vitórias
+-diminui com derrotas
+
+Arena
+Fama | Ouro

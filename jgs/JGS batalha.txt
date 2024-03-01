@@ -1,0 +1,68 @@
+100 vida
+100 Vigor
+
+Velocidade: Energia/100 * agilidade
+Força: Vigor/100 * força
+::
+Compostura Ataque: (agilidade + força) * Energia/100
+Compostura Defesa: (agilidade + força) * Vigor/100
+::
+Custo Ataque: 1 (Energia, Compostura)
+Custo Bloqueio: Dano (Vigor), % Ataque (Compostura)
+Custo Crítico: 1 (Energia, Compostura)
+Custo Evasão: 1 (Vigor, Compostura)
+
+% Ataque: Flair//Sense * Ca/Cd --
+% Crítico: Compostura/(2*Compostura_oponente), se >= 0,75
+% Golpe: Velocidade --
+Dano: Força --
+Dano Crítico: C/(2Co) = | 0,75<x<1 -> 0 vida, 1<x<50 -> 1<x<100
+
+---
+
+User ataca
+User ataca
+User golpeia
+Player evade
+
+Player ataca
+Player golpeia *X*
+
+---
+
+1. jogador com mais flair/sense ataca
+2. comp: speed+power
+2.1 perda de comp_a: (speed+sense)_opo - (speed+flair)_own
+2.2 perda de comp_d: (speed+power+flair)_opo - (speed+power+sense)_own
+3. dano=power--
+4. prob. crit.: comp_a=2*comp_d
+4.1 dano crit.: 100*ca/cd -300; ie: ca/cd=(3,4)=>(0,100)
+
+if (^flair[comp])>=(vflair[comp]) { (^flair[comp]) ataca }
+else { (vflair[comp]) ataca }
+
+enq((comp--)>0) { ataca }
+
+ataque:
+-swing: -5 energia, -1 comp
+-crit: -5 energia, comp/=2
+defesa:
+-block: -dano energia, speed-- comp
+-flee: -5 energia, comp--
+-touche: -crit vida, comp--
+
+---
+
+speed - comp
+power - dano
+flair - +prob_crit(own)
+sense - -prob_crit(opo)
+skill - geral
+
+comp: (speed*vida_stamina)--
+dano: (power*vida_stamina)--
+prob crit: (flair-sense)vida_stamina//
+
+---
+
+ronda 1: fs ataca (multiple, blocked) -> goes for critic -> hit XOR block XOR counter
